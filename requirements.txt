@@ -9,3 +9,4 @@ python-termstyle==0.1.10
 requests==2.5.1
 six==1.10.0
 sniffer==0.3.5
+dronekit-sitl==3.0.1
