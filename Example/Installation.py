@@ -17,5 +17,12 @@ if __name__ == '__main__':
     print "Simultaor Statistics"
     print " GPS: {0}".format(vehicle.gps_0)
     print " Battery: {0}".format(vehicle.battery)
-    print " Last Heartbeat: {0}".format(vehicle.hear)
+    print " Last Heartbeat: {0}".format(vehicle._heartbeat_lastreceived)
+    print " Is Armable?: {0}".format(vehicle.is_armable)
+    print " System status: {0}".format(vehicle.system_status.state)
+    print " Mode: {0}".format(vehicle.mode.name)
+
+    vehicle.close()
+    sitl.stop()
+    print "Le Fin"
 
