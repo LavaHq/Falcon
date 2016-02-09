@@ -1,7 +1,7 @@
-import socket
 import exceptions
+import socket
 
-from dronekit import connect, APIException
+import dronekit
 
 
 class FalconConnection:
@@ -18,7 +18,7 @@ class FalconConnection:
 
         """
         try:
-            self.vehicle = connect(ip, wait_ready=True, heartbeat_timeout=heartbeat_timeout)
+            self.vehicle = dronekit.connect(ip, wait_ready=True, heartbeat_timeout=heartbeat_timeout)
         # Bad TCP connection
         except socket.error:
             print 'No server exists!'
@@ -28,7 +28,7 @@ class FalconConnection:
             print 'No serial exists! error:{0}'.format(e)
 
         # Timeout Error
-        except APIException:
+        except dronekit.APIException:
             print 'API Exception Thrown'
 
         # General Exception
