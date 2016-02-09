@@ -4,7 +4,7 @@ import exceptions
 from dronekit import connect, APIException
 
 
-class FalconApp:
+class FalconConnection:
     """The Main Drone Connection Module
 
     Attributes:
@@ -30,5 +30,7 @@ class FalconApp:
         # Timeout Error
         except APIException:
             print 'API Exception Thrown'
+
+        # General Exception
         except Exception, e:
             print 'General Exception: {0}'.format(e)
