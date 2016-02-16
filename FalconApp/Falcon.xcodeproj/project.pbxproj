@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C5CE2B1C72A8E8003D7273 /* mcd menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C5CE2A1C72A8E8003D7273 /* mcd menu.png */; };
+		49C5CE2F1C72AEAA003D7273 /* mcdonalds.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C5CE2E1C72AEAA003D7273 /* mcdonalds.png */; };
+		49F8D74B1C72978600A92DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8D74A1C72978600A92DC5 /* AppDelegate.swift */; };
+		49F8D74D1C72978600A92DC5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8D74C1C72978600A92DC5 /* MasterViewController.swift */; };
+		49F8D74F1C72978600A92DC5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8D74E1C72978600A92DC5 /* DetailViewController.swift */; };
+		49F8D7521C72978600A92DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D7501C72978600A92DC5 /* Main.storyboard */; };
+		49F8D7541C72978600A92DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D7531C72978600A92DC5 /* Assets.xcassets */; };
+		49F8D7571C72978600A92DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D7551C72978600A92DC5 /* LaunchScreen.storyboard */; };
+		49F8D7621C72978600A92DC5 /* FalconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8D7611C72978600A92DC5 /* FalconTests.swift */; };
+		49F8D76D1C72978600A92DC5 /* FalconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8D76C1C72978600A92DC5 /* FalconUITests.swift */; };
+		49F8D77B1C729E5900A92DC5 /* McD.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D77A1C729E5900A92DC5 /* McD.png */; };
+		49F8D7811C72A0FB00A92DC5 /* burger-king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D77C1C72A0FB00A92DC5 /* burger-king.jpg */; };
+		49F8D7821C72A0FB00A92DC5 /* popeyes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D77D1C72A0FB00A92DC5 /* popeyes.jpg */; };
+		49F8D7831C72A0FB00A92DC5 /* dominos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D77E1C72A0FB00A92DC5 /* dominos.jpg */; };
+		49F8D7841C72A0FB00A92DC5 /* pizza-hut-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D77F1C72A0FB00A92DC5 /* pizza-hut-logo.jpg */; };
+		49F8D7851C72A0FB00A92DC5 /* kfc-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F8D7801C72A0FB00A92DC5 /* kfc-logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F8D75E1C72978600A92DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F8D73F1C72978500A92DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F8D7461C72978600A92DC5;
+			remoteInfo = Falcon;
+		};
+		49F8D7691C72978600A92DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F8D73F1C72978500A92DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F8D7461C72978600A92DC5;
+			remoteInfo = Falcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C5CE2A1C72A8E8003D7273 /* mcd menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mcd menu.png"; path = "../mcd menu.png"; sourceTree = "<group>"; };
+		49C5CE2E1C72AEAA003D7273 /* mcdonalds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mcdonalds.png; sourceTree = "<group>"; };
+		49F8D7471C72978600A92DC5 /* Falcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Falcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F8D74A1C72978600A92DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49F8D74C1C72978600A92DC5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		49F8D74E1C72978600A92DC5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		49F8D7511C72978600A92DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F8D7531C72978600A92DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F8D7561C72978600A92DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F8D7581C72978600A92DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F8D75D1C72978600A92DC5 /* FalconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F8D7611C72978600A92DC5 /* FalconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconTests.swift; sourceTree = "<group>"; };
+		49F8D7631C72978600A92DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F8D7681C72978600A92DC5 /* FalconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F8D76C1C72978600A92DC5 /* FalconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconUITests.swift; sourceTree = "<group>"; };
+		49F8D76E1C72978600A92DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F8D77A1C729E5900A92DC5 /* McD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McD.png; sourceTree = "<group>"; };
+		49F8D77C1C72A0FB00A92DC5 /* burger-king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-king.jpg"; sourceTree = "<group>"; };
+		49F8D77D1C72A0FB00A92DC5 /* popeyes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popeyes.jpg; sourceTree = "<group>"; };
+		49F8D77E1C72A0FB00A92DC5 /* dominos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dominos.jpg; sourceTree = "<group>"; };
+		49F8D77F1C72A0FB00A92DC5 /* pizza-hut-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza-hut-logo.jpg"; sourceTree = "<group>"; };
+		49F8D7801C72A0FB00A92DC5 /* kfc-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kfc-logo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F8D7441C72978600A92DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8D75A1C72978600A92DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8D7651C72978600A92DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F8D73E1C72978500A92DC5 = {
+			isa = PBXGroup;
+			children = (
+				49F8D7491C72978600A92DC5 /* Falcon */,
+				49F8D7601C72978600A92DC5 /* FalconTests */,
+				49F8D76B1C72978600A92DC5 /* FalconUITests */,
+				49F8D7481C72978600A92DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F8D7481C72978600A92DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F8D7471C72978600A92DC5 /* Falcon.app */,
+				49F8D75D1C72978600A92DC5 /* FalconTests.xctest */,
+				49F8D7681C72978600A92DC5 /* FalconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F8D7491C72978600A92DC5 /* Falcon */ = {
+			isa = PBXGroup;
+			children = (
+				49F8D74A1C72978600A92DC5 /* AppDelegate.swift */,
+				49F8D74C1C72978600A92DC5 /* MasterViewController.swift */,
+				49F8D74E1C72978600A92DC5 /* DetailViewController.swift */,
+				49F8D7501C72978600A92DC5 /* Main.storyboard */,
+				49F8D7531C72978600A92DC5 /* Assets.xcassets */,
+				49F8D7551C72978600A92DC5 /* LaunchScreen.storyboard */,
+				49F8D7581C72978600A92DC5 /* Info.plist */,
+				49F8D77A1C729E5900A92DC5 /* McD.png */,
+				49F8D77C1C72A0FB00A92DC5 /* burger-king.jpg */,
+				49F8D77D1C72A0FB00A92DC5 /* popeyes.jpg */,
+				49F8D77E1C72A0FB00A92DC5 /* dominos.jpg */,
+				49F8D77F1C72A0FB00A92DC5 /* pizza-hut-logo.jpg */,
+				49F8D7801C72A0FB00A92DC5 /* kfc-logo.jpg */,
+				49C5CE2A1C72A8E8003D7273 /* mcd menu.png */,
+				49C5CE2E1C72AEAA003D7273 /* mcdonalds.png */,
+			);
+			path = Falcon;
+			sourceTree = "<group>";
+		};
+		49F8D7601C72978600A92DC5 /* FalconTests */ = {
+			isa = PBXGroup;
+			children = (
+				49F8D7611C72978600A92DC5 /* FalconTests.swift */,
+				49F8D7631C72978600A92DC5 /* Info.plist */,
+			);
+			path = FalconTests;
+			sourceTree = "<group>";
+		};
+		49F8D76B1C72978600A92DC5 /* FalconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49F8D76C1C72978600A92DC5 /* FalconUITests.swift */,
+				49F8D76E1C72978600A92DC5 /* Info.plist */,
+			);
+			path = FalconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F8D7461C72978600A92DC5 /* Falcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F8D7711C72978600A92DC5 /* Build configuration list for PBXNativeTarget "Falcon" */;
+			buildPhases = (
+				49F8D7431C72978600A92DC5 /* Sources */,
+				49F8D7441C72978600A92DC5 /* Frameworks */,
+				49F8D7451C72978600A92DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Falcon;
+			productName = Falcon;
+			productReference = 49F8D7471C72978600A92DC5 /* Falcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F8D75C1C72978600A92DC5 /* FalconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F8D7741C72978600A92DC5 /* Build configuration list for PBXNativeTarget "FalconTests" */;
+			buildPhases = (
+				49F8D7591C72978600A92DC5 /* Sources */,
+				49F8D75A1C72978600A92DC5 /* Frameworks */,
+				49F8D75B1C72978600A92DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F8D75F1C72978600A92DC5 /* PBXTargetDependency */,
+			);
+			name = FalconTests;
+			productName = FalconTests;
+			productReference = 49F8D75D1C72978600A92DC5 /* FalconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49F8D7671C72978600A92DC5 /* FalconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F8D7771C72978600A92DC5 /* Build configuration list for PBXNativeTarget "FalconUITests" */;
+			buildPhases = (
+				49F8D7641C72978600A92DC5 /* Sources */,
+				49F8D7651C72978600A92DC5 /* Frameworks */,
+				49F8D7661C72978600A92DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F8D76A1C72978600A92DC5 /* PBXTargetDependency */,
+			);
+			name = FalconUITests;
+			productName = FalconUITests;
+			productReference = 49F8D7681C72978600A92DC5 /* FalconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F8D73F1C72978500A92DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Demoleas";
+				TargetAttributes = {
+					49F8D7461C72978600A92DC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					49F8D75C1C72978600A92DC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 49F8D7461C72978600A92DC5;
+					};
+					49F8D7671C72978600A92DC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 49F8D7461C72978600A92DC5;
+					};
+				};
+			};
+			buildConfigurationList = 49F8D7421C72978500A92DC5 /* Build configuration list for PBXProject "Falcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F8D73E1C72978500A92DC5;
+			productRefGroup = 49F8D7481C72978600A92DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F8D7461C72978600A92DC5 /* Falcon */,
+				49F8D75C1C72978600A92DC5 /* FalconTests */,
+				49F8D7671C72978600A92DC5 /* FalconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F8D7451C72978600A92DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F8D7571C72978600A92DC5 /* LaunchScreen.storyboard in Resources */,
+				49F8D7541C72978600A92DC5 /* Assets.xcassets in Resources */,
+				49C5CE2B1C72A8E8003D7273 /* mcd menu.png in Resources */,
+				49F8D7851C72A0FB00A92DC5 /* kfc-logo.jpg in Resources */,
+				49C5CE2F1C72AEAA003D7273 /* mcdonalds.png in Resources */,
+				49F8D7811C72A0FB00A92DC5 /* burger-king.jpg in Resources */,
+				49F8D7841C72A0FB00A92DC5 /* pizza-hut-logo.jpg in Resources */,
+				49F8D77B1C729E5900A92DC5 /* McD.png in Resources */,
+				49F8D7521C72978600A92DC5 /* Main.storyboard in Resources */,
+				49F8D7821C72A0FB00A92DC5 /* popeyes.jpg in Resources */,
+				49F8D7831C72A0FB00A92DC5 /* dominos.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8D75B1C72978600A92DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8D7661C72978600A92DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F8D7431C72978600A92DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F8D74F1C72978600A92DC5 /* DetailViewController.swift in Sources */,
+				49F8D74D1C72978600A92DC5 /* MasterViewController.swift in Sources */,
+				49F8D74B1C72978600A92DC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8D7591C72978600A92DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F8D7621C72978600A92DC5 /* FalconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8D7641C72978600A92DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F8D76D1C72978600A92DC5 /* FalconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F8D75F1C72978600A92DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F8D7461C72978600A92DC5 /* Falcon */;
+			targetProxy = 49F8D75E1C72978600A92DC5 /* PBXContainerItemProxy */;
+		};
+		49F8D76A1C72978600A92DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F8D7461C72978600A92DC5 /* Falcon */;
+			targetProxy = 49F8D7691C72978600A92DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F8D7501C72978600A92DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F8D7511C72978600A92DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F8D7551C72978600A92DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F8D7561C72978600A92DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F8D76F1C72978600A92DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49F8D7701C72978600A92DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F8D7721C72978600A92DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Falcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demoleas.Falcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49F8D7731C72978600A92DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Falcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demoleas.Falcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49F8D7751C72978600A92DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FalconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demoleas.FalconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falcon.app/Falcon";
+			};
+			name = Debug;
+		};
+		49F8D7761C72978600A92DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FalconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demoleas.FalconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falcon.app/Falcon";
+			};
+			name = Release;
+		};
+		49F8D7781C72978600A92DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FalconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demoleas.FalconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Falcon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49F8D7791C72978600A92DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FalconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demoleas.FalconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Falcon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F8D7421C72978500A92DC5 /* Build configuration list for PBXProject "Falcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F8D76F1C72978600A92DC5 /* Debug */,
+				49F8D7701C72978600A92DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F8D7711C72978600A92DC5 /* Build configuration list for PBXNativeTarget "Falcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F8D7721C72978600A92DC5 /* Debug */,
+				49F8D7731C72978600A92DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F8D7741C72978600A92DC5 /* Build configuration list for PBXNativeTarget "FalconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F8D7751C72978600A92DC5 /* Debug */,
+				49F8D7761C72978600A92DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F8D7771C72978600A92DC5 /* Build configuration list for PBXNativeTarget "FalconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F8D7781C72978600A92DC5 /* Debug */,
+				49F8D7791C72978600A92DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F8D73F1C72978500A92DC5 /* Project object */;
+}
